@@ -1,3 +1,46 @@
+
+nav a {
+  color: rgb(10, 52, 192);
+  padding: 10px;
+  display: block;
+}
+
+h1 {
+  color: #371f67;
+}
+
+main {
+  max-width: 840px;
+}
+
+main img {
+  width:150px;
+  height: auto;
+  border: 1px solid #6b4bac;
+  padding: 2px;
+}
+
 p {
-    color: red;
-  }
+  padding:0;
+}
+
+aside {
+  width:20rem;
+  margin:1rem;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  padding:1rem;
+  background-color:#eee;
+  color:#333;
+  text-align:center;
+}
+
+aside img {
+  width:200px;
+  height:auto;
+}
+
+footer {
+  margin-top:1em;
+  border-top:1px solid #000;
+  text-align:center;
+}
