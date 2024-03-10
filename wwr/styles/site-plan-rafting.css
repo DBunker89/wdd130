@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 :root{
     --primary-color:#3027AF;
     --secondary-color:#E3DD6C;
@@ -6,7 +6,7 @@
     --accent2-color:#9E2424;
 
     --heading-font:"Truculenta",sans-serif;
-    --paragraph-font:"Madimi One",sans;
+    --paragraph-font:"Truculenta",sans-serif;
 
     --nav-background-color:#e0d67b;
     --nav-link-color:#9500ff;
@@ -31,6 +31,7 @@ header {
 }
 p {
     padding: 25px;
+    font-family: var(--paragraph-font);
 }
 nav {
     background-color: var(--nav-background-color);
