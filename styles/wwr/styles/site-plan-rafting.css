@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+:root{
+    --primary-color:#3027AF;
+    --secondary-color:#E3DD6C;
+    --accent1-color:#0D431C;
+    --accent2-color:#9E2424;
+
+    --heading-font:"Truculenta",sans-serif;
+    --paragraph-font:"Madimi One",sans;
+
+    --nav-background-color:#e0d67b;
+    --nav-link-color:#9500ff;
+    --nav-hover-link-color:#ff0004;
+    --nav-hover-background-color:#000dff;
+}
+body {
+    max-width: 960px;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    font: var(--paragraph-font);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    font: var(--heading-font);
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
