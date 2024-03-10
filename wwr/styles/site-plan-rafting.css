@@ -18,14 +18,14 @@ body {
     margin: 0;
     padding: 20px;
     font-size: 18px;
-    font: var(--paragraph-font);
+    font-family: var(--paragraph-font);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 header {
-    font: var(--heading-font);
+    font-family: var(--heading-font);
     padding: 20px;
     background-color: var(--accent2-color);
 }
