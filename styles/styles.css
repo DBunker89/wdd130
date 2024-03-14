@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -16,6 +21,7 @@ nav a {
 
 h1 {
   color: #371f67;
+  padding: 5rem;
 }
 
 main {
@@ -33,6 +39,7 @@ main img {
 
 p {
   padding:0;
+  margin: 1rem;
 }
 
 aside {
@@ -54,7 +61,7 @@ aside img {
 aside h2 {
   position: absolute;
   top: 20px;
-  left: 137px;
+  left: 110px;
 }
 
 footer {
