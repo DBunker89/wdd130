@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+:root {
+    --primary-color: #6208b1;
+    --secondary-color: #E3DD6C;
+    --accent1-color: #ae0808;
+    --accent2-color: #1379ac;
+
+    --heading-font: "Truculenta", sans-serif;
+    --paragraph-font: "Ojuju", sans-serif;
+
+    --nav-background-color:#b7d1ec;
+    --nav-link-color:#220d7d;
+    --nav-hover-link-color:#ff0004;
+    --nav-hover-background-color:#fcf9fe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    max-width: 1000px;
+}
+
+header img {
+    margin: 1rem;
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero h1 {
+    color: var(--secondary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+    max-width: 840px;
+    margin: 0;
+    font-size: 16px;
+}
+
+article {
+    position: absolute;
+    top: 60px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+}
+article img {
+    float:right;
+    top: 100px;
+    width: 150%;
+}
+
+.hero {
+    border: 0px blue;
+    position: relative;
+}
+
+.hero article img {
+    display: block;
+    width: 100px;
+    height: auto;
+    float: right;
+    margin:1rem;
+    padding:1rem;
+}
