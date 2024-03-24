@@ -131,7 +131,7 @@ article img {
     max-width: 100%;
     margin: 0px 5px 0px 5px;
 }
-.adventureimages h2 {
+.adventureimages h3 {
     text-align: center;
 }
 
@@ -159,9 +159,7 @@ article img {
 }
 
 .history h2 {
-    grid-column: 2/ span 1;
-    align-self: center;
-    justify-self: center;
+    text-align: center;
 }
 
 .history .p1 {
