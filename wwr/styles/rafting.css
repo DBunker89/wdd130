@@ -69,7 +69,12 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-  }
+}
+
+nav a:hover {
+    color: #ff0004;
+}
+
 
 body {
     font-family: var(--paragraph-font);
