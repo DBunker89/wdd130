@@ -205,5 +205,5 @@ footer p {
 .sociallinks img {
     width: 30px;
     margin-left: 10px;
-    vertical-align: auto;
+    display: inline;
 }
