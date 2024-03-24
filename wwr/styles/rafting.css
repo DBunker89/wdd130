@@ -196,6 +196,8 @@ article img {
 footer {
     border-top: 2px solid var(--accent1-color);
     margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer p {
@@ -203,13 +205,14 @@ footer p {
 }
 
 .sociallinks {
-    display: grid;
-    float: right;
-    max-width: 500px;
+    display: flex;
+    list-style: none;
+    padding: 0;
     
 }
 
 .sociallinks img {
-    width: 200px;
-    vertical-align: middle;
+    width: 30px;
+    margin-left: 10px;
+    vertical-align: auto;
 }
