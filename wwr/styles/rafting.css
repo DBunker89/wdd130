@@ -26,13 +26,16 @@ header {
     margin: 1rem auto;
     display: grid;
     max-width: 1000px;
+    grid-template-columns: 1fr 5fr;
+}
+
+header nav a {
+    padding: 5px 20px;
+    width: 70px;
 }
 
 header img {
-    margin: 0 0.25rem 0 1rem;
-    width: 100px;
-    height: auto;
-    display:block;
+    justify-self: center;
 }
 
 h1 {
@@ -54,7 +57,9 @@ h1 {
 }
 
 nav {
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -99,7 +104,7 @@ article img {
 
 .nav-bar {
     display: block;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
     justify-content: space-between;
     background-color: var(--nav-hover-background-color);
@@ -108,8 +113,6 @@ article img {
 
 .logo {
     max-width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 3;
     align-items: center;
 }
 
