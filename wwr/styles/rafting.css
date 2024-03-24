@@ -29,9 +29,10 @@ header {
 }
 
 header img {
-    margin: 1rem;
+    margin: 0 0.25rem 0 1rem;
     width: 100px;
     height: auto;
+    display:block;
 }
 
 h1 {
@@ -49,6 +50,7 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
+    text-shadow: 5px 5px 15px;
 }
 
 nav {
@@ -70,25 +72,125 @@ article {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: var(--accent2-color);
+    background-color: var(--nav-background-color);
     padding: 1rem;
 }
 article img {
     float:right;
-    top: 100px;
-    width: 150%;
+    top: 180px;
+    width: auto;
 }
 
 .hero {
-    border: 0px blue;
+    border: 0px;
     position: relative;
 }
 
 .hero article img {
     display: block;
-    width: 100px;
+    position: right;
+    margin-left: 0;
+    margin-right: 0;
+    width: 60%;
     height: auto;
     float: right;
     margin:1rem;
     padding:1rem;
+}
+
+.nav-bar {
+    display: block;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-hover-background-color);
+    border: 1px solid black;
+}
+
+.logo {
+    max-width: 100%;
+    min-width: none;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-items: center;
+}
+
+.nav-bar nav a {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.nav-bar nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.adventureimages {
+    max-width: 100%;
+    margin: 0px 5px 0px 5px;
+}
+.adventureimages h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.images .picture {
+    max-width: 100%;
+    margin: 0px 5px 0px 5px;
+}
+
+.images figure {
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.history h2 {
+    grid-column: 2/ span 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.history .p1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.history img {
+    grid-column: 2/ span 1;
+}
+
+.history .p2 {
+    grid-column: 3/ span 1;
+}
+
+footer {
+    border-top: 2px solid var(--accent1-color);
+    margin-top: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    max-width: 500px;
+}
+
+.sociallinks img {
+    width: 50px;
 }
