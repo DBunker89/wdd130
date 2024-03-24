@@ -203,11 +203,13 @@ footer p {
 }
 
 .sociallinks {
-    display: block;
+    display: grid;
+    float: right;
     max-width: 500px;
-    text-align: right;
+    
 }
 
 .sociallinks img {
-    width: 50px;
+    width: 200px;
+    vertical-align: middle;
 }
