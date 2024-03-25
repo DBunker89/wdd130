@@ -91,12 +91,11 @@ article {
     width: 100%;
     justify-content: space-evenly;
     background-color: var(--nav-hover-background-color);
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .logo img {
-    max-width: 225px;
-    align-items: center;
+    width: 100%;
 }
 
 .nav-bar a {
@@ -105,17 +104,18 @@ article {
     margin-left: 2rem;
     margin-right: 2rem;
     color: blue;
-    margin: 1;
-    padding: 1;
+    margin: 1rem;
+    padding: 1rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
     font-weight: 700;
 
 }
 
 .nav-bar nav {
     display: inline;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
     margin: 0;
