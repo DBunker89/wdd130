@@ -40,7 +40,7 @@ body {
 
 article {
     position: absolute;
-    top: 10%;
+    top: 18%;
     width: 70%;
     left: 0;
     right: 0;
@@ -49,31 +49,25 @@ article {
     padding: 20px;
     text-align: center;
 }
-article img {
-    float:right;
-    top: 180px;
-    width: 200px;
-    height: auto;
-    margin-bottom: 10px;
-}
 
 .hero {
     border: 0px;
     position: relative;
     width: 100%;
-    height: 400px;
 }
 
 .hero article img {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    width: 60%;
+    width: 150px;
     height: auto;
     float: right;
     margin:1rem;
-    padding:1rem;
 }
+
+.hero img {
+    width: 100%;
+
+}
+
 
 .hero h1 {
     color: gold;
@@ -86,17 +80,16 @@ article img {
 }
 
 .header {
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 10px 20px;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 250px auto;
 }
 
 .nav-bar {
-    display: block;
-    grid-template-columns: 1fr 5fr;
-    align-items: center;
-    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: var(--nav-hover-background-color);
     border: 3px solid black;
 }
@@ -106,17 +99,17 @@ article img {
     align-items: center;
 }
 
-.nav-bar nav a {
+.nav-bar a {
     display: inline;
+    width: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
     color: blue;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     text-decoration: none;
-    font-size: 5rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    justify-content: space-evenly;
 
 }
 
@@ -137,12 +130,12 @@ nav a:hover {
     display: grid;
     align-items: center;
     text-align: justify;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .history h2 {
     text-align: center;
+    grid-column: 2/3;
 }
 
 .history .p1 {
@@ -152,6 +145,7 @@ nav a:hover {
 
 .history img {
     grid-column: 2;
+    width: 250px;
 }
 
 .history .p2 {
