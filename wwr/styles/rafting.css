@@ -285,7 +285,7 @@ form {
     width: 100%;
     margin: auto;
     color: #6208b1;
-    text-decoration: bold;
+    font-weight: 500;
 }
 
 .staffimages {
@@ -299,12 +299,11 @@ figcaption {
 .contact, .images {
     width: 100%;
     margin: auto;
-    align-items: left;
 }
   
 fieldset p {
     font-size: 1.2rem;
     color:  var(--primary-color);
-    text-decoration: bold;
+    font-weight: 500;
     font-family: var(--paragraph-font);
 }
