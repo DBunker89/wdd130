@@ -289,7 +289,8 @@ form {
 }
 
 .staffimages {
-    width: 15rem;
+    width: 45%;
+    padding: 1rem;
 }
 
 figcaption {
