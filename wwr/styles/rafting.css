@@ -308,3 +308,8 @@ fieldset p {
     font-weight: 500;
     font-family: var(--paragraph-font);
 }
+
+label {
+    font-weight: 620;
+    font-size: 1.1rem;
+}
