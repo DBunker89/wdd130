@@ -316,3 +316,11 @@ label {
     font-weight: 620;
     font-size: 1.1rem;
 }
+
+.name {
+    grid-column: 1;
+}
+
+.email {
+    grid-column: 2;
+}
