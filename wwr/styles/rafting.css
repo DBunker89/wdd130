@@ -290,12 +290,21 @@ form {
 }
 
 .staffimages {
-    width: 45%;
-    padding: 1rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    display: inline-block;
+    width: 260px;
+    vertical-align: top;
+    justify-content: space-between;
+
 }
 
 figcaption {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #6208b1;
     font-weight: 700;
 }
