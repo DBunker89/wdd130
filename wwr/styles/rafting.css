@@ -332,3 +332,46 @@ label {
 .email {
     grid-column: 2;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eae5a3;
+}
+  
+th, td {
+    border: 3px solid;
+    color: #6208b1;
+    padding: 2px;
+    text-align: left;
+    font-weight: 600;
+}
+  
+th {
+    background-color: #eae5a3;
+    color: #6208b1;
+    font-weight: 750;
+    text-decoration: underline;
+    font-size: 1.03rem;
+}
+
+h5 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+    display: block;
+}
