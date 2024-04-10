@@ -219,7 +219,7 @@ footer p {
 
 legend {
     font-family: var(--heading-font);
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: #6208b1;
     font-weight: 700;
     text-align: center;
@@ -347,6 +347,8 @@ label {
   max-width: 100%;
 }
 
+/* Trips Page */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -375,3 +377,134 @@ h5 {
     font-size: 2rem;
     display: block;
 }
+
+h6 {
+    font: var(--heading-font);
+    font-size: 1.8rem;
+    color: #6208b1;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  /* Home page */
+
+#HOME p {
+    font: var(--paragraph-font);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #6208b1;
+}
+
+
+#HOME{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #HOME #subhead{
+    grid-column: 1/3;
+    position: relative;
+    margin-bottom: 3rem;
+  }
+
+  #HOME .main{
+    position: absolute;
+    top: 12%;
+    width:95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #eae5a3;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #HOME img {
+    width: 100%;
+  }
+  
+  #HOME form{
+    grid-column: 1/3;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+  
+  #HOME form fieldset{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-family: var(--heading-font);
+    box-shadow: 0 0 5px #6208b1;
+  }
+
+  #HOME input{
+    padding: 0.5rem;
+    width: 25rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  #HOME label{
+    position: sticky;
+    width: 100%;
+  }
+
+  #HOME #more{
+    display: flex;
+    position: static;
+    grid-column: 1/3;
+    width: 100%;
+    padding:20px;
+    grid-row: 2/5;
+    margin-top: 0;
+    margin-bottom: 3rem;
+  
+  }
+
+  #HOME #more section{
+    display: inline;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #6208b1;
+    background-color: #eae5a3;
+  }
+
+  .hpbutton {
+    display: block;
+    width: 40%;
+    padding: 2px;
+    border-radius: 2rem;
+    background-color: #6208b1;
+    color: #eae5a3;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: var(--paragraph-font);
+    font-weight: 600;
+
+  }
+
+  .image-section {
+    display: flex; 
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .image-section figure {
+    flex: 1;
+    text-align: center; 
+  }
+  
+  .image-section img {
+    max-width: 100%; 
+    padding: 6px;
+  }
+  
+  .image-section figcaption {
+    margin-top: 10px;
+   }
