@@ -39,7 +39,8 @@ h2, h3, h4 {
 
 p {
     font-family: var(--paragraph-font);
-    color: black;
+    color: #6208b1;
+    font-size: 1rem;
 }
 
 body {
@@ -58,7 +59,7 @@ article {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background-color: var(--nav-background-color);
+    background-color: #eae5a3;
     padding: 20px;
     text-align: center;
 }
@@ -83,7 +84,8 @@ article {
 
 
 .hero h1 {
-    color: gold;
+    color: #eae5a3;
+    font-weight: 1000;
     position: absolute;
     top: 0;
     left: 0;
@@ -104,7 +106,7 @@ article {
     width: 100%;
     justify-content: space-evenly;
     background-color: var(--nav-hover-background-color);
-    border: 2px solid black;
+    border: 2px solid #6208b1;
 }
 
 .logo img {
@@ -192,7 +194,7 @@ nav a:hover {
 }
 
 footer {
-    border-top: 2px solid var(--accent1-color);
+    border-top: 2px solid #6208b1;
     margin-top: 1rem;
     display: flex;
     justify-content: flex-end;
